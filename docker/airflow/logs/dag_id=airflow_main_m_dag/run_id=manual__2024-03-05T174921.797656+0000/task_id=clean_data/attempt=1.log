@@ -1,0 +1,75 @@
+[2024-03-05T17:49:42.452+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airflow_main_m_dag.clean_data manual__2024-03-05T17:49:21.797656+00:00 [queued]>
+[2024-03-05T17:49:42.473+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airflow_main_m_dag.clean_data manual__2024-03-05T17:49:21.797656+00:00 [queued]>
+[2024-03-05T17:49:42.474+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-05T17:49:42.532+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): clean_data> on 2024-03-05 17:49:21.797656+00:00
+[2024-03-05T17:49:42.544+0000] {standard_task_runner.py:60} INFO - Started process 235 to run task
+[2024-03-05T17:49:42.547+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'airflow_main_m_dag', 'clean_data', 'manual__2024-03-05T17:49:21.797656+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/airflow_main_m_dag.py', '--cfg-path', '/tmp/tmpwwlhc5e7']
+[2024-03-05T17:49:42.549+0000] {standard_task_runner.py:88} INFO - Job 6: Subtask clean_data
+[2024-03-05T17:49:42.675+0000] {task_command.py:423} INFO - Running <TaskInstance: airflow_main_m_dag.clean_data manual__2024-03-05T17:49:21.797656+00:00 [running]> on host 78c66e2b2da2
+[2024-03-05T17:49:42.853+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='airflow_main_m_dag' AIRFLOW_CTX_TASK_ID='clean_data' AIRFLOW_CTX_EXECUTION_DATE='2024-03-05T17:49:21.797656+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-05T17:49:21.797656+00:00'
+[2024-03-05T17:49:44.061+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/airflow_main_m_dag.py:36 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-03-05T17:49:46.203+0000] {logging_mixin.py:188} INFO - <class 'pandas.core.frame.DataFrame'>
+Index: 5008 entries, 0 to 5039
+Data columns (total 52 columns):
+ #   Column                         Non-Null Count  Dtype  
+---  ------                         --------------  -----  
+ 0   ESTU_GENERO                    5008 non-null   object 
+ 1   ESTU_ESTADOCIVIL               5003 non-null   object 
+ 2   ESTU_TIENE_ETNIA               4622 non-null   object 
+ 3   ESTU_LIMITA_MOTRIZ             3 non-null      object 
+ 4   ESTU_LIMITA_INVIDENTE          0 non-null      float64
+ 5   ESTU_LIMITA_CONDICIONESPECIAL  1 non-null      object 
+ 6   ESTU_LIMITA_SORDO              2 non-null      object 
+ 7   ESTU_LIMITA_AUTISMO            0 non-null      float64
+ 8   ESTU_MCPIO_RESIDE              5008 non-null   object 
+ 9   ESTU_DEPTO_RESIDE              5008 non-null   object 
+ 10  ESTU_AREA_RESIDE               5008 non-null   object 
+ 11  ESTU_TITULO_OBTENIDOBACHILLER  5004 non-null   object 
+ 12  ESTU_HORAS_SEMANATRABAJA       5008 non-null   object 
+ 13  ESTU_DEDICACION_INTERNET       5004 non-null   object 
+ 14  ESTU_NUMERO_LIBROS             5008 non-null   object 
+ 15  ESTU_DEDICACION_LECTURADIARIA  5008 non-null   object 
+ 16  FAMI_OCUPACION_MADRE           5008 non-null   object 
+ 17  FAMI_OCUPACION_PADRE           5008 non-null   object 
+ 18  FAMI_ESTRATO_VIVIENDA          5008 non-null   object 
+ 19  FAMI_CUARTOS_HOGAR             5008 non-null   object 
+ 20  FAMI_EDUCACION_MADRE           5008 non-null   object 
+ 21  FAMI_EDUCACION_PADRE           5008 non-null   object 
+ 22  FAMI_PERSONAS_HOGAR            5008 non-null   object 
+ 23  FAMI_TIENE_AUTOMOVIL           5008 non-null   object 
+ 24  FAMI_TIENE_COMPUTADOR          5008 non-null   object 
+ 25  FAMI_TIENE_INTERNET            5008 non-null   object 
+ 26  FAMI_TIENE_LAVADORA            5008 non-null   object 
+ 27  FAMI_TIENE_SERVICIOTV          5007 non-null   object 
+ 28  FAMI_TIENE_HORNO_MICROOGAS     4872 non-null   object 
+ 29  FAMI_TIENE_MOTOCICLETA         4835 non-null   object 
+ 30  FAMI_CABEZA_FAMILIA            5008 non-null   object 
+ 31  FAMI_HOGARACTUAL               5008 non-null   object 
+ 32  FAMI_NUM_PERSONASACARGO        5008 non-null   object 
+ 33  INST_NOMBRE_INSTITUCION        5008 non-null   object 
+ 34  ESTU_PRGM_ACADEMICO            5008 non-null   object 
+ 35  GRUPOREFERENCIA                5008 non-null   object 
+ 36  ESTU_PRGM_MUNICIPIO            5008 non-null   object 
+ 37  ESTU_PRGM_DEPARTAMENTO         5008 non-null   object 
+ 38  ESTU_NIVEL_PRGM_ACADEMICO      5008 non-null   object 
+ 39  ESTU_METODO_PRGM               5008 non-null   object 
+ 40  ESTU_NUCLEO_PREGRADO           5008 non-null   object 
+ 41  ESTU_INST_MUNICIPIO            5008 non-null   object 
+ 42  ESTU_INST_DEPARTAMENTO         5008 non-null   object 
+ 43  INST_CARACTER_ACADEMICO        5008 non-null   object 
+ 44  INST_ORIGEN                    5008 non-null   object 
+ 45  ESTU_PRIVADO_LIBERTAD          5008 non-null   object 
+ 46  MOD_RAZONA_CUANTITAT_PUNT      5008 non-null   int64  
+ 47  MOD_LECTURA_CRITICA_PUNT       5008 non-null   int64  
+ 48  MOD_COMPETEN_CIUDADA_PUNT      5008 non-null   int64  
+ 49  MOD_INGLES_PUNT                5008 non-null   int64  
+ 50  MOD_COMUNI_ESCRITA_PUNT        4932 non-null   float64
+ 51  EDAD                           4976 non-null   float64
+dtypes: float64(4), int64(4), object(44)
+memory usage: 2.2+ MB
+[2024-03-05T17:49:46.204+0000] {logging_mixin.py:188} INFO - None
+[2024-03-05T17:49:50.833+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2024-03-05T17:49:51.632+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-05T17:49:51.665+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=airflow_main_m_dag, task_id=clean_data, execution_date=20240305T174921, start_date=20240305T174942, end_date=20240305T174951
+[2024-03-05T17:49:51.897+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-05T17:49:52.061+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

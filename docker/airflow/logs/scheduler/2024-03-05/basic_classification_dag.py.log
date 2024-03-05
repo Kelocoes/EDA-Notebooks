@@ -1,0 +1,235 @@
+[2024-03-05T17:48:13.874+0000] {processor.py:161} INFO - Started process (PID=133) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:48:13.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T17:48:13.878+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:48:13.877+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:48:15.185+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:48:15.415+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:48:15.414+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:basic_classification_dag
+[2024-03-05T17:48:15.462+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:48:15.461+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:basic_classification_dag
+[2024-03-05T17:48:15.508+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:48:15.507+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:basic_classification_dag
+[2024-03-05T17:48:15.510+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:48:15.509+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T17:48:15.536+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:48:15.535+0000] {dag.py:3069} INFO - Creating ORM DAG for basic_classification_dag
+[2024-03-05T17:48:15.556+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:48:15.556+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T17:48:15.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.780 seconds
+[2024-03-05T17:48:46.744+0000] {processor.py:161} INFO - Started process (PID=162) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:48:46.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T17:48:46.747+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:48:46.747+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:48:48.005+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:48:48.044+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:48:48.042+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T17:48:48.083+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:48:48.083+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T17:48:48.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.424 seconds
+[2024-03-05T17:49:22.441+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:49:22.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T17:49:22.449+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:49:22.447+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:49:26.362+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:49:26.503+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:49:26.501+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T17:49:26.693+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:49:26.692+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T17:49:26.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 4.477 seconds
+[2024-03-05T17:50:03.430+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:50:03.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T17:50:03.435+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:50:03.434+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:50:05.163+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:50:05.206+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:50:05.205+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T17:50:05.253+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:50:05.253+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T17:50:05.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.946 seconds
+[2024-03-05T17:50:49.345+0000] {processor.py:161} INFO - Started process (PID=390) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:50:49.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T17:50:49.348+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:50:49.347+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:50:53.008+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:50:53.293+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:50:53.291+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T17:50:53.485+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:50:53.484+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T17:50:53.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 4.557 seconds
+[2024-03-05T17:50:54.346+0000] {processor.py:161} INFO - Started process (PID=406) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:50:54.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T17:50:54.356+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:50:54.355+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:50:55.982+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T17:50:56.047+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:50:56.046+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T17:50:56.112+0000] {logging_mixin.py:188} INFO - [2024-03-05T17:50:56.112+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T17:50:56.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.881 seconds
+[2024-03-05T18:41:02.180+0000] {processor.py:161} INFO - Started process (PID=506) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:41:02.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:41:02.186+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:41:02.184+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:41:02.731+0000] {processor.py:161} INFO - Started process (PID=515) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:41:02.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:41:02.740+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:41:02.739+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:41:03.388+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:41:03.468+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:41:03.467+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:41:03.521+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:41:03.520+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:41:03.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.444 seconds
+[2024-03-05T18:41:04.267+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:41:04.301+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:41:04.301+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:41:04.335+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:41:04.334+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:41:04.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.707 seconds
+[2024-03-05T18:41:35.065+0000] {processor.py:161} INFO - Started process (PID=582) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:41:35.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:41:35.069+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:41:35.068+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:41:35.120+0000] {processor.py:161} INFO - Started process (PID=583) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:41:35.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:41:35.124+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:41:35.124+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:41:36.666+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:41:36.698+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:41:36.697+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:41:36.731+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:41:36.730+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:41:36.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.775 seconds
+[2024-03-05T18:41:37.036+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:41:37.076+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:41:37.075+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:41:37.124+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:41:37.123+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:41:37.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 2.120 seconds
+[2024-03-05T18:42:07.671+0000] {processor.py:161} INFO - Started process (PID=658) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:42:07.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:42:07.674+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:42:07.674+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:42:08.058+0000] {processor.py:161} INFO - Started process (PID=660) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:42:08.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:42:08.063+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:42:08.062+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:42:09.126+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:42:09.160+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:42:09.160+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:42:09.195+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:42:09.194+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:42:09.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.633 seconds
+[2024-03-05T18:42:09.638+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:42:09.679+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:42:09.678+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:42:09.719+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:42:09.719+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:42:09.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.778 seconds
+[2024-03-05T18:42:39.493+0000] {processor.py:161} INFO - Started process (PID=734) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:42:39.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:42:39.495+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:42:39.495+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:42:40.539+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:42:40.592+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:42:40.589+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:42:40.646+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:42:40.645+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:42:40.857+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.367 seconds
+[2024-03-05T18:42:40.921+0000] {processor.py:161} INFO - Started process (PID=743) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:42:40.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:42:40.933+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:42:40.932+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:42:42.279+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:42:42.313+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:42:42.312+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:42:42.361+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:42:42.361+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:42:42.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.559 seconds
+[2024-03-05T18:43:11.879+0000] {processor.py:161} INFO - Started process (PID=810) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:43:11.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:43:11.881+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:43:11.881+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:43:12.954+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:43:12.994+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:43:12.993+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:43:13.030+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:43:13.030+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:43:13.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.258 seconds
+[2024-03-05T18:43:13.563+0000] {processor.py:161} INFO - Started process (PID=819) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:43:13.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:43:13.569+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:43:13.568+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:43:16.111+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:43:16.155+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:43:16.154+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:43:16.210+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:43:16.210+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:43:16.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 2.787 seconds
+[2024-03-05T18:43:45.822+0000] {processor.py:161} INFO - Started process (PID=886) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:43:45.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:43:45.830+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:43:45.827+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:43:47.381+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:43:47.433+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:43:47.432+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:43:47.503+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:43:47.503+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:43:47.522+0000] {processor.py:161} INFO - Started process (PID=895) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:43:47.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:43:47.529+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:43:47.528+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:43:47.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 1.847 seconds
+[2024-03-05T18:43:49.732+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:43:49.815+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:43:49.813+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:43:49.920+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:43:49.919+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:43:50.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 2.562 seconds
+[2024-03-05T18:44:21.595+0000] {processor.py:161} INFO - Started process (PID=962) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:44:21.597+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:44:21.600+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:44:21.598+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:44:21.991+0000] {processor.py:161} INFO - Started process (PID=964) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:44:21.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:44:22.000+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:44:21.996+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:44:24.195+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:44:24.244+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:44:24.244+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:44:24.295+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:44:24.295+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:44:24.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 2.869 seconds
+[2024-03-05T18:44:24.644+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:44:24.694+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:44:24.693+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:44:24.738+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:44:24.738+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:44:24.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 2.885 seconds
+[2024-03-05T18:45:12.970+0000] {processor.py:161} INFO - Started process (PID=1038) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:45:12.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:45:13.000+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:45:12.991+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:45:14.640+0000] {processor.py:161} INFO - Started process (PID=1040) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:45:14.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:45:14.664+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:45:14.662+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:45:18.231+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:45:18.383+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:45:18.377+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:45:18.518+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:45:18.516+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:45:18.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 5.908 seconds
+[2024-03-05T18:45:18.893+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:45:18.962+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:45:18.961+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:45:19.013+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:45:19.012+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:45:19.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 4.574 seconds
+[2024-03-05T18:45:49.431+0000] {processor.py:161} INFO - Started process (PID=1114) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:45:49.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:45:49.440+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:45:49.439+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:45:50.044+0000] {processor.py:161} INFO - Started process (PID=1116) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:45:50.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:45:50.055+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:45:50.054+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:45:53.435+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:45:53.552+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:45:53.551+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:45:53.645+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:45:53.645+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:45:53.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 4.412 seconds
+[2024-03-05T18:45:53.992+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:45:54.107+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:45:54.104+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:45:54.197+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:45:54.196+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:45:54.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 4.570 seconds
+[2024-03-05T18:46:42.234+0000] {processor.py:161} INFO - Started process (PID=1190) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:46:42.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:46:42.238+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:46:42.237+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:46:44.825+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:46:44.947+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:46:44.945+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:46:45.108+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:46:45.107+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:46:45.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 3.114 seconds
+[2024-03-05T18:47:02.133+0000] {processor.py:161} INFO - Started process (PID=1255) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:47:02.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:47:02.155+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:47:02.154+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:47:05.464+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:47:05.524+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:47:05.523+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:47:05.588+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:47:05.588+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:47:05.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 3.625 seconds
+[2024-03-05T18:47:15.771+0000] {processor.py:161} INFO - Started process (PID=1283) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:47:15.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:47:15.791+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:47:15.788+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:47:18.778+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:47:18.837+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:47:18.837+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:47:18.894+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:47:18.894+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:47:19.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 3.287 seconds
+[2024-03-05T18:47:47.780+0000] {processor.py:161} INFO - Started process (PID=1340) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:47:47.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:47:47.803+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:47:47.800+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:47:51.836+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:47:51.898+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:47:51.897+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:47:51.941+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:47:51.941+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:47:52.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 4.312 seconds
+[2024-03-05T18:48:01.552+0000] {processor.py:161} INFO - Started process (PID=1368) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:48:01.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:48:01.569+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:48:01.565+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:48:04.841+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:48:04.920+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:48:04.919+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:48:04.991+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:48:04.990+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:48:05.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 3.658 seconds
+[2024-03-05T18:48:22.602+0000] {processor.py:161} INFO - Started process (PID=1416) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:48:22.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:48:22.606+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:48:22.605+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:48:24.843+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:48:24.907+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:48:24.906+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:48:24.959+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:48:24.959+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:48:25.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 2.496 seconds
+[2024-03-05T18:48:36.366+0000] {processor.py:161} INFO - Started process (PID=1444) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:48:36.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:48:36.381+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:48:36.371+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:48:39.356+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:48:39.420+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:48:39.418+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:48:39.497+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:48:39.497+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:48:39.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 3.333 seconds
+[2024-03-05T18:48:59.765+0000] {processor.py:161} INFO - Started process (PID=1485) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:48:59.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:48:59.783+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:48:59.781+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:49:05.358+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:49:05.444+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:49:05.443+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:49:05.532+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:49:05.532+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:49:05.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 6.003 seconds
+[2024-03-05T18:49:12.111+0000] {processor.py:161} INFO - Started process (PID=1520) to work on /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:49:12.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/basic_classification_dag.py for tasks to queue
+[2024-03-05T18:49:12.115+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:49:12.115+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:49:15.973+0000] {processor.py:840} INFO - DAG(s) 'basic_classification_dag' retrieved from /opt/airflow/dags/basic_classification_dag.py
+[2024-03-05T18:49:16.062+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:49:16.060+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-05T18:49:16.146+0000] {logging_mixin.py:188} INFO - [2024-03-05T18:49:16.145+0000] {dag.py:3834} INFO - Setting next_dagrun for basic_classification_dag to 2024-03-04 23:00:00+00:00, run_after=2024-03-05 23:00:00+00:00
+[2024-03-05T18:49:16.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/basic_classification_dag.py took 4.213 seconds

@@ -1,0 +1,14 @@
+[2024-03-05T18:46:53.753+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: welcome_dag.print_random_quote manual__2024-03-05T18:45:57.584618+00:00 [queued]>
+[2024-03-05T18:46:53.786+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: welcome_dag.print_random_quote manual__2024-03-05T18:45:57.584618+00:00 [queued]>
+[2024-03-05T18:46:53.787+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-05T18:46:53.867+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): print_random_quote> on 2024-03-05 18:45:57.584618+00:00
+[2024-03-05T18:46:53.875+0000] {standard_task_runner.py:60} INFO - Started process 1228 to run task
+[2024-03-05T18:46:53.882+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'welcome_dag', 'print_random_quote', 'manual__2024-03-05T18:45:57.584618+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/welcome_dag.py', '--cfg-path', '/tmp/tmpgqrld4_s']
+[2024-03-05T18:46:53.888+0000] {standard_task_runner.py:88} INFO - Job 14: Subtask print_random_quote
+[2024-03-05T18:46:54.067+0000] {task_command.py:423} INFO - Running <TaskInstance: welcome_dag.print_random_quote manual__2024-03-05T18:45:57.584618+00:00 [running]> on host 78c66e2b2da2
+[2024-03-05T18:46:54.431+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='welcome_dag' AIRFLOW_CTX_TASK_ID='print_random_quote' AIRFLOW_CTX_EXECUTION_DATE='2024-03-05T18:45:57.584618+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-05T18:45:57.584618+00:00'
+[2024-03-05T18:46:55.822+0000] {logging_mixin.py:188} INFO - Quote of the day: "To invent, you need a good imagination and a pile of junk."
+[2024-03-05T18:46:55.829+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-05T18:46:55.878+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=welcome_dag, task_id=print_random_quote, execution_date=20240305T184557, start_date=20240305T184653, end_date=20240305T184655
+[2024-03-05T18:46:55.997+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-05T18:46:56.042+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

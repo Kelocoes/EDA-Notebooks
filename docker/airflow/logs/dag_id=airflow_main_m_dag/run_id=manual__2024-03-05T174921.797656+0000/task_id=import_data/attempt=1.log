@@ -1,0 +1,14 @@
+[2024-03-05T17:49:31.417+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airflow_main_m_dag.import_data manual__2024-03-05T17:49:21.797656+00:00 [queued]>
+[2024-03-05T17:49:31.437+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airflow_main_m_dag.import_data manual__2024-03-05T17:49:21.797656+00:00 [queued]>
+[2024-03-05T17:49:31.437+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-05T17:49:31.489+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): import_data> on 2024-03-05 17:49:21.797656+00:00
+[2024-03-05T17:49:31.503+0000] {standard_task_runner.py:60} INFO - Started process 217 to run task
+[2024-03-05T17:49:31.528+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'airflow_main_m_dag', 'import_data', 'manual__2024-03-05T17:49:21.797656+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/airflow_main_m_dag.py', '--cfg-path', '/tmp/tmptt4c595d']
+[2024-03-05T17:49:31.546+0000] {standard_task_runner.py:88} INFO - Job 5: Subtask import_data
+[2024-03-05T17:49:31.747+0000] {task_command.py:423} INFO - Running <TaskInstance: airflow_main_m_dag.import_data manual__2024-03-05T17:49:21.797656+00:00 [running]> on host 78c66e2b2da2
+[2024-03-05T17:49:31.943+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='airflow_main_m_dag' AIRFLOW_CTX_TASK_ID='import_data' AIRFLOW_CTX_EXECUTION_DATE='2024-03-05T17:49:21.797656+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-05T17:49:21.797656+00:00'
+[2024-03-05T17:49:36.421+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2024-03-05T17:49:37.190+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-05T17:49:37.217+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=airflow_main_m_dag, task_id=import_data, execution_date=20240305T174921, start_date=20240305T174931, end_date=20240305T174937
+[2024-03-05T17:49:37.363+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-05T17:49:37.428+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

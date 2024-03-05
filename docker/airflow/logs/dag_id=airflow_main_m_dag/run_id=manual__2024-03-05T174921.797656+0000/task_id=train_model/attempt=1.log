@@ -1,0 +1,21 @@
+[2024-03-05T17:50:39.030+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airflow_main_m_dag.train_model manual__2024-03-05T17:49:21.797656+00:00 [queued]>
+[2024-03-05T17:50:39.058+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airflow_main_m_dag.train_model manual__2024-03-05T17:49:21.797656+00:00 [queued]>
+[2024-03-05T17:50:39.059+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-05T17:50:39.113+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): train_model> on 2024-03-05 17:49:21.797656+00:00
+[2024-03-05T17:50:39.126+0000] {standard_task_runner.py:60} INFO - Started process 369 to run task
+[2024-03-05T17:50:39.130+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'airflow_main_m_dag', 'train_model', 'manual__2024-03-05T17:49:21.797656+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/airflow_main_m_dag.py', '--cfg-path', '/tmp/tmpoi4ealtl']
+[2024-03-05T17:50:39.134+0000] {standard_task_runner.py:88} INFO - Job 11: Subtask train_model
+[2024-03-05T17:50:39.311+0000] {task_command.py:423} INFO - Running <TaskInstance: airflow_main_m_dag.train_model manual__2024-03-05T17:49:21.797656+00:00 [running]> on host 78c66e2b2da2
+[2024-03-05T17:50:39.537+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='airflow_main_m_dag' AIRFLOW_CTX_TASK_ID='train_model' AIRFLOW_CTX_EXECUTION_DATE='2024-03-05T17:49:21.797656+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-05T17:49:21.797656+00:00'
+[2024-03-05T17:50:40.010+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/airflow_main_m_dag.py:159 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-03-05T17:50:41.108+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/airflow_main_m_dag.py:160 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-03-05T17:50:41.263+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/airflow_main_m_dag.py:164 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-03-05T17:50:41.324+0000] {logging_mixin.py:188} WARNING - /opt/airflow/dags/airflow_main_m_dag.py:165 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-03-05T17:50:46.584+0000] {logging_mixin.py:188} INFO - MAE para materia MOD_RAZONA_CUANTITAT_PUNT: 16.150449101796404
+[2024-03-05T17:50:46.585+0000] {logging_mixin.py:188} INFO - MAE para materia MOD_LECTURA_CRITICA_PUNT: 17.490888223552894
+[2024-03-05T17:50:46.586+0000] {logging_mixin.py:188} INFO - MAE para materia MOD_COMPETEN_CIUDADA_PUNT: 16.49263473053892
+[2024-03-05T17:50:46.587+0000] {logging_mixin.py:188} INFO - MAE para materia MOD_INGLES_PUNT: 15.116506986027945
+[2024-03-05T17:50:46.590+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-05T17:50:46.608+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=airflow_main_m_dag, task_id=train_model, execution_date=20240305T174921, start_date=20240305T175039, end_date=20240305T175046
+[2024-03-05T17:50:46.694+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-05T17:50:46.725+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
